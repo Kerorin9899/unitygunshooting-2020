@@ -1,0 +1,934 @@
+fileFormatVersion: 2
+guid: b8c6c853277d0444cbb572b27c1de2b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7966479846258074139
+    second: CardAll_0
+  - first:
+      213: -7292851286337907212
+    second: CardAll_1
+  - first:
+      213: 1192319083930070265
+    second: CardAll_2
+  - first:
+      213: 9198424459609032295
+    second: CardAll_3
+  - first:
+      213: -8274673444870362278
+    second: CardAll_4
+  - first:
+      213: 7766227792577794121
+    second: CardAll_5
+  - first:
+      213: 7049943250943114939
+    second: CardAll_6
+  - first:
+      213: 117842009856342253
+    second: CardAll_7
+  - first:
+      213: 6643330055902909893
+    second: CardAll_8
+  - first:
+      213: 4882182493273593740
+    second: CardAll_9
+  - first:
+      213: -8211552635551092705
+    second: CardAll_10
+  - first:
+      213: 5089145005057100533
+    second: CardAll_11
+  - first:
+      213: -3911298098647358486
+    second: CardAll_12
+  - first:
+      213: -3334517011510143384
+    second: CardAll_13
+  - first:
+      213: -8714286105172766738
+    second: CardAll_14
+  - first:
+      213: -7947461110442581230
+    second: CardAll_15
+  - first:
+      213: 6974374470384325120
+    second: CardAll_16
+  - first:
+      213: 7807162676848230417
+    second: CardAll_17
+  - first:
+      213: -158082620595130072
+    second: CardAll_18
+  - first:
+      213: -7606896340534150051
+    second: CardAll_19
+  - first:
+      213: -3953959565577485634
+    second: CardAll_20
+  - first:
+      213: 5859061985694960233
+    second: CardAll_21
+  - first:
+      213: 3296579798415163230
+    second: CardAll_22
+  - first:
+      213: -4749167615401743027
+    second: CardAll_23
+  - first:
+      213: -6490225601317837413
+    second: CardAll_24
+  - first:
+      213: 6427683525342832536
+    second: CardAll_25
+  - first:
+      213: -4133223052453270398
+    second: CardAll_26
+  - first:
+      213: 4767528022251692277
+    second: CardAll_27
+  - first:
+      213: 1494677623953242477
+    second: CardAll_28
+  - first:
+      213: 7417838961599364287
+    second: CardAll_29
+  - first:
+      213: -3448412792414991
+    second: CardAll_30
+  - first:
+      213: -4920711989689458086
+    second: CardAll_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CardAll_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4725
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed9a7db9c0617190800000000000000
+      internalID: -7966479846258074139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_1
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 4725
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5141ee4669aca90800000000000000
+      internalID: -7292851286337907212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_2
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 4725
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc2290c3e7fb8010800000000000000
+      internalID: 1192319083930070265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_3
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 4725
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766c2488f4e57af70800000000000000
+      internalID: 9198424459609032295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_4
+      rect:
+        serializedVersion: 2
+        x: 4660
+        y: 4725
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5be42ec7547a2d80800000000000000
+      internalID: -8274673444870362278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_5
+      rect:
+        serializedVersion: 2
+        x: 5825
+        y: 4725
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9409d55b70f27cb60800000000000000
+      internalID: 7766227792577794121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_6
+      rect:
+        serializedVersion: 2
+        x: 6990
+        y: 4725
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe7027d80e66d160800000000000000
+      internalID: 7049943250943114939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_7
+      rect:
+        serializedVersion: 2
+        x: 8155
+        y: 4725
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8fa110fa8a2a100800000000000000
+      internalID: 117842009856342253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5d4cbec79d13c50800000000000000
+      internalID: 6643330055902909893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_9
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 3150
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8714385c1ff0c340800000000000000
+      internalID: 4882182493273593740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_10
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 3150
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10fd877264ba0e80800000000000000
+      internalID: -8211552635551092705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_11
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 3150
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fac1ec2b6640a640800000000000000
+      internalID: 5089145005057100533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_12
+      rect:
+        serializedVersion: 2
+        x: 4660
+        y: 3150
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3a67b2a1748b9c0800000000000000
+      internalID: -3911298098647358486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_13
+      rect:
+        serializedVersion: 2
+        x: 5825
+        y: 3150
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866d07fe17a69b1d0800000000000000
+      internalID: -3334517011510143384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_14
+      rect:
+        serializedVersion: 2
+        x: 6990
+        y: 3150
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef0e0625f2a01780800000000000000
+      internalID: -8714286105172766738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_15
+      rect:
+        serializedVersion: 2
+        x: 8155
+        y: 3150
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213a6dd3a32f4b190800000000000000
+      internalID: -7947461110442581230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1554
+        width: 1122
+        height: 1596
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0029fc501a4f9c060800000000000000
+      internalID: 6974374470384325120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_17
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1575
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1100a39271d985c60800000000000000
+      internalID: 7807162676848230417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_18
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 1575
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821b342b1b06ecdf0800000000000000
+      internalID: -158082620595130072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_19
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 1575
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c3e33d410ee6690800000000000000
+      internalID: -7606896340534150051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_20
+      rect:
+        serializedVersion: 2
+        x: 4660
+        y: 1575
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb20f7d59b6b029c0800000000000000
+      internalID: -3953959565577485634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_21
+      rect:
+        serializedVersion: 2
+        x: 5825
+        y: 1575
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ac75655d19f4150800000000000000
+      internalID: 5859061985694960233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_22
+      rect:
+        serializedVersion: 2
+        x: 6990
+        y: 1575
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fb3425cddcfbd20800000000000000
+      internalID: 3296579798415163230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_23
+      rect:
+        serializedVersion: 2
+        x: 8155
+        y: 1575
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4da0394731971eb0800000000000000
+      internalID: -4749167615401743027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95ed49c3361ee5a0800000000000000
+      internalID: -6490225601317837413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_25
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 0
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897a0b86c18b33950800000000000000
+      internalID: 6427683525342832536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_26
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 0
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c21155887d3a6c0800000000000000
+      internalID: -4133223052453270398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_27
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 0
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0680f0a79a92240800000000000000
+      internalID: 4767528022251692277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_28
+      rect:
+        serializedVersion: 2
+        x: 4660
+        y: 0
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69357d31692eb410800000000000000
+      internalID: 1494677623953242477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_29
+      rect:
+        serializedVersion: 2
+        x: 5825
+        y: 0
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcbe23fb3571f660800000000000000
+      internalID: 7417838961599364287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_30
+      rect:
+        serializedVersion: 2
+        x: 6990
+        y: 0
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc1874dfafb3fff0800000000000000
+      internalID: -3448412792414991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardAll_31
+      rect:
+        serializedVersion: 2
+        x: 8155
+        y: 0
+        width: 1165.875
+        height: 1575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52ed84348e16bbb0800000000000000
+      internalID: -4920711989689458086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6c5a5109f18b7cd47b2849316c7afd54
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
