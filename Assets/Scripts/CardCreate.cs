@@ -31,7 +31,7 @@ public class CardCreate : MonoBehaviour
     private int l = 0;
 
     //debug
-    private int offset = 20;
+    private int offset = 12;
     private List<Vector3> debugCardposition = new List<Vector3>();
 
     // Start is called before the first frame update
@@ -49,7 +49,7 @@ public class CardCreate : MonoBehaviour
         {
             for(int j = 0;j < s;j++)
             {
-                Vector3 pos = new Vector3(x,y,50);
+                Vector3 pos = new Vector3(x,y,15);
                 debugCardposition.Add(pos);
                 x += offset;
             }

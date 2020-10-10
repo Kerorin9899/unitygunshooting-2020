@@ -8,6 +8,9 @@ TagManager:
   - Bullet1p
   - Bullet2p
   - SelectedCardsImage
+  - Ground
+  - Item
+  - Cards
   layers:
   - Default
   - TransparentFX

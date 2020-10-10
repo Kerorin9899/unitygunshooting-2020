@@ -33,6 +33,7 @@ public class CardControl : MonoBehaviour
         GetComponent<Rigidbody>().isKinematic = true;
         GetComponent<Collider>().enabled = true;
         gameObject.transform.localEulerAngles = new Vector3(0,180,0);
+        backflipflag = false;
     }
 
     private void OnBecameInvisible()

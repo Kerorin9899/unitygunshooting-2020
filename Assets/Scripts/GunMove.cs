@@ -26,8 +26,8 @@ public class GunMove : MonoBehaviour
 
         Vector3 pos = gameObject.transform.position;
 
-        pos.x += ray.origin.x * 50;
-        pos.y += ray.origin.y * 3;
+        pos.x += ray.origin.x * 5 * 0.0001f;
+        pos.y += ray.origin.y * 0.3f * 0.0001f;
 
         Vector3 dir = toRay - pos;
 

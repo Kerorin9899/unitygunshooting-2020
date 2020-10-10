@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class raygun : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class raygun : MonoBehaviour
     private GameObject gunparentobj;
     [SerializeField]
     private GameObject Cardselected;
+
+    [SerializeField]
+    private Sprite[] facesel;
 
     [SerializeField]
     private GameObject Hiteff;
@@ -55,6 +59,11 @@ public class raygun : MonoBehaviour
     public bool twotimespoint = false;
     public bool skulleffect = false;
 
+    private GameObject[] Selectedobj;
+    //Set Index at 4
+    public Image[] Selected;
+    public Animator[] SelectedAnim;
+
     float br;
     float bra;
 
@@ -69,6 +78,17 @@ public class raygun : MonoBehaviour
 
         br = Reloadtime;
         bra = cur.RapidCursor;
+
+        Selectedobj = GameObject.FindGameObjectsWithTag("SelectedCardsImage");
+        Debug.Log(Selectedobj[0].transform.position);
+
+        int j = 0;
+        foreach(GameObject a in Selectedobj)
+        {
+            a.SetActive(false);
+            Selected[j] = a.GetComponent<Image>();
+            j++;
+        }
 
         for (int i = 0;i < part;i++)
         {
@@ -248,48 +268,58 @@ public class raygun : MonoBehaviour
                     RaycastHit hit;
                     if (Physics.SphereCast(ray, 1, out hit, 200)/* && !Mistakeflag*/)
                     {
-                        Vector3 f = hit.point;
-                        onhiteffiect(f);
-                        OnhitSelect(hit);
-                        //hit.collider.gameObject.GetComponent<CardControl>().showface = true;
-                        hit.collider.gameObject.GetComponent<CardControl>().flipflag = true;
-                        pair[pairIndex] = hit.collider.gameObject;
-                        pair[pairIndex].GetComponent<Collider>().enabled = false;
-
-                        if (pairIndex == 1)
+                        if (hit.collider.CompareTag("Cards"))
                         {
-                            int a, b;
-                            a = pair[0].GetComponent<CardControl>().cardIndex;
-                            b = pair[1].GetComponent<CardControl>().cardIndex;
-                            if (a == b)
+                            Vector3 f = hit.point;
+                            onhiteffiect(f);
+                            OnhitSelect(hit);
+                            //hit.collider.gameObject.GetComponent<CardControl>().showface = true;
+                            hit.collider.gameObject.GetComponent<CardControl>().flipflag = true;
+                            pair[pairIndex] = hit.collider.gameObject;
+                            pair[pairIndex].GetComponent<Collider>().enabled = false;
+
+                            int j;
+                            j = pair[pairIndex].GetComponent<CardControl>().cardIndex;
+
+                            Selectedobj[pairIndex].SetActive(true);
+                            Selected[pairIndex].sprite = facesel[j];
+
+                            if (pairIndex == 1)
                             {
-                                snum = a;
-                                int i;
-                                for (i = 0; i < cc.Cards.Count; i++)
+                                int a, b;
+                                a = pair[0].GetComponent<CardControl>().cardIndex;
+                                b = pair[1].GetComponent<CardControl>().cardIndex;
+                                if (a == b)
                                 {
-                                    if (pair[0] != cc.Cards[i] && pair[1] != cc.Cards[i])
+                                    snum = a;
+                                    int i;
+                                    for (i = 0; i < cc.Cards.Count; i++)
                                     {
-                                        if (cc.Cards[i].GetComponent<CardControl>().cardIndex == snum)
+                                        if (pair[0] != cc.Cards[i] && pair[1] != cc.Cards[i])
                                         {
-                                            cc.Cards[i].GetComponent<Collider>().enabled = false;
-                                            break;
+                                            if (cc.Cards[i].GetComponent<CardControl>().cardIndex == snum)
+                                            {
+                                                cc.Cards[i].GetComponent<Collider>().enabled = false;
+                                                break;
+                                            }
                                         }
                                     }
+                                    Invoke("CorrectCards", 0.1f);
                                 }
-                                CorrectCards();
+                                else
+                                {
+                                    //Mistakeflag = true;
+                                    Invoke("InvCards", 0.3f);
+                                }
                             }
-                            else
+
+                            pairIndex++;
+
+                            if (pairIndex >= 2)
                             {
-                                //Mistakeflag = true;
-                                Invoke("InvCards", 0.3f);
+                                pairIndex = 0;
                             }
-                        }
 
-                        pairIndex++;
-
-                        if (pairIndex >= 2)
-                        {
-                            pairIndex = 0;
                         }
 
                     }
@@ -344,6 +374,9 @@ public class raygun : MonoBehaviour
         pair[1].GetComponent<CardControl>().flipflag = true;
         pair[0].GetComponent<Collider>().enabled = true;
         pair[1].GetComponent<Collider>().enabled = true;
+
+        Selectedobj[0].SetActive(false);
+        Selectedobj[1].SetActive(false);
         //Mistakeflag = false;
     }
 
@@ -354,15 +387,15 @@ public class raygun : MonoBehaviour
         p1.isKinematic = false;
         p2.isKinematic = false;
 
-        Vector3 f1 = new Vector3(UnityEngine.Random.Range(-100.0f, 100.0f), UnityEngine.Random.Range(100.0f, 200.0f), UnityEngine.Random.Range(-50.0f, 50.0f));
-        Vector3 f2 = new Vector3(UnityEngine.Random.Range(-100.0f, 100.0f), UnityEngine.Random.Range(100.0f, 200.0f), UnityEngine.Random.Range(-50.0f, 50.0f));
-        Vector3 f3 = new Vector3(UnityEngine.Random.Range(-100.0f, 100.0f), UnityEngine.Random.Range(100.0f, 200.0f), UnityEngine.Random.Range(-50.0f, 50.0f));
+        Vector3 f1 = new Vector3(UnityEngine.Random.Range(-50.0f, 50.0f), UnityEngine.Random.Range(50.0f, 100.0f), UnityEngine.Random.Range(-50.0f, 50.0f));
+        Vector3 f2 = new Vector3(UnityEngine.Random.Range(-50.0f, 50.0f), UnityEngine.Random.Range(50.0f, 100.0f), UnityEngine.Random.Range(-50.0f, 50.0f));
+        Vector3 f3 = new Vector3(UnityEngine.Random.Range(-50.0f, 50.0f), UnityEngine.Random.Range(50.0f, 100.0f), UnityEngine.Random.Range(-50.0f, 50.0f));
 
         p1.AddForce(f1, ForceMode.Impulse);
         p2.AddForce(f2, ForceMode.Impulse);
 
-        p1.AddTorque(f2);
-        p2.AddTorque(f3);
+        p1.AddTorque(f2*200);
+        p2.AddTorque(f3*200);
 
         StartCoroutine(activefalsecards(pair[0]));
         StartCoroutine(activefalsecards(pair[1]));
@@ -371,6 +404,9 @@ public class raygun : MonoBehaviour
         cardselect[cardselectnum[1]].SetActive(false);
         cardselectnum.Remove(0);
         cardselectnum.Remove(1);
+
+        Selectedobj[0].SetActive(false);
+        Selectedobj[1].SetActive(false);
 
         int i;
         for (i = 0; i < cc.Cards.Count; i++)
@@ -385,7 +421,7 @@ public class raygun : MonoBehaviour
                     //cc.Cards[i].SetActive(false);
                     p3.isKinematic = false;
                     p3.AddForce(f3, ForceMode.Impulse);
-                    p3.AddTorque(f1);
+                    p3.AddTorque(f1*200);
                     break;
                 }
             }
