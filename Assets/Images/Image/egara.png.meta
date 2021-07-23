@@ -1,0 +1,1150 @@
+fileFormatVersion: 2
+guid: 8434bf56e4c00f74b91f74b91a5bb551
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1707307535968741765
+    second: egara_0
+  - first:
+      213: 471838391129973662
+    second: egara_1
+  - first:
+      213: 8185025052470541994
+    second: egara_2
+  - first:
+      213: 2243127559417525155
+    second: egara_3
+  - first:
+      213: 1080468101465911539
+    second: egara_4
+  - first:
+      213: 6220702991005881422
+    second: egara_5
+  - first:
+      213: 8204491784067142279
+    second: egara_6
+  - first:
+      213: 2517073563924537041
+    second: egara_7
+  - first:
+      213: -8957996383331353822
+    second: egara_8
+  - first:
+      213: 7937657534269382246
+    second: egara_9
+  - first:
+      213: -3564593106509224175
+    second: egara_10
+  - first:
+      213: 5427284112073734937
+    second: egara_11
+  - first:
+      213: -8491526954499441966
+    second: egara_12
+  - first:
+      213: 4718805744874908551
+    second: egara_13
+  - first:
+      213: 5656287125310797224
+    second: egara_14
+  - first:
+      213: -1048801885274264259
+    second: egara_15
+  - first:
+      213: 1114151623734215507
+    second: egara_16
+  - first:
+      213: -3374961052697558661
+    second: egara_17
+  - first:
+      213: -9169187409815952595
+    second: egara_18
+  - first:
+      213: -2120960775232851278
+    second: egara_19
+  - first:
+      213: -8269800184918402140
+    second: egara_20
+  - first:
+      213: 7217783596229111458
+    second: egara_21
+  - first:
+      213: 3750955810409721317
+    second: egara_22
+  - first:
+      213: 9146307567728323508
+    second: egara_23
+  - first:
+      213: 6543182541092503277
+    second: egara_24
+  - first:
+      213: -6301238192560837941
+    second: egara_25
+  - first:
+      213: -283757524361803763
+    second: egara_26
+  - first:
+      213: 3934503371241329190
+    second: egara_27
+  - first:
+      213: 1295210193145806149
+    second: egara_28
+  - first:
+      213: 6038019991146441879
+    second: egara_29
+  - first:
+      213: -6858386711623169314
+    second: egara_30
+  - first:
+      213: 1874151645991304670
+    second: egara_31
+  - first:
+      213: -5312104576163758977
+    second: egara_32
+  - first:
+      213: -4109091475983124847
+    second: egara_33
+  - first:
+      213: -5200735876834042666
+    second: egara_34
+  - first:
+      213: -4894406412166713606
+    second: egara_35
+  - first:
+      213: -3540411265287662468
+    second: egara_36
+  - first:
+      213: -2665439571686880510
+    second: egara_37
+  - first:
+      213: 5579335934899343965
+    second: egara_38
+  - first:
+      213: 3490649636513014027
+    second: egara_39
+  - first:
+      213: -6438512666211577878
+    second: egara_40
+  - first:
+      213: 7440732874307329773
+    second: egara_41
+  - first:
+      213: 3375064837735795530
+    second: egara_42
+  - first:
+      213: 6928831051403264533
+    second: egara_43
+  - first:
+      213: 2075232928501888543
+    second: egara_44
+  - first:
+      213: 63360733246606336
+    second: egara_45
+  - first:
+      213: -5098458920548302006
+    second: egara_46
+  - first:
+      213: -7378107718510339214
+    second: egara_47
+  - first:
+      213: -3063286840055780032
+    second: egara_48
+  - first:
+      213: 3600948045672426305
+    second: egara_49
+  - first:
+      213: -7207704693282561577
+    second: egara_50
+  - first:
+      213: -111438244259570134
+    second: egara_51
+  - first:
+      213: 8974996303461370828
+    second: egara_52
+  - first:
+      213: 7558229738233013375
+    second: egara_53
+  - first:
+      213: -2322154972423998760
+    second: egara_54
+  - first:
+      213: 7551239099207577542
+    second: egara_55
+  - first:
+      213: 1620434695802338240
+    second: egara_56
+  - first:
+      213: 8678673610503262606
+    second: egara_57
+  - first:
+      213: -7859009241071431920
+    second: egara_58
+  - first:
+      213: -6392825468043435448
+    second: egara_59
+  - first:
+      213: 8738156075133477576
+    second: egara_60
+  - first:
+      213: 8641171236629236225
+    second: egara_61
+  - first:
+      213: 6714139859971117846
+    second: egara_62
+  - first:
+      213: -8737656278343267092
+    second: egara_63
+  - first:
+      213: 4996752146261015876
+    second: egara_64
+  - first:
+      213: 1413357120184658290
+    second: egara_65
+  - first:
+      213: -515145685419817938
+    second: egara_66
+  - first:
+      213: -6200570454652855718
+    second: egara_67
+  - first:
+      213: 475215148548164142
+    second: egara_68
+  - first:
+      213: 801583642850575520
+    second: egara_69
+  - first:
+      213: -421574075281997125
+    second: egara_70
+  - first:
+      213: 4676920824415185587
+    second: egara_71
+  - first:
+      213: -8682431393050174383
+    second: egara_0
+  - first:
+      213: -3342011110519207356
+    second: egara_1
+  - first:
+      213: 5981239486232083453
+    second: egara_2
+  - first:
+      213: 3459879863686591637
+    second: egara_3
+  - first:
+      213: 3278043809465017355
+    second: egara_4
+  - first:
+      213: -151937264029509462
+    second: egara_5
+  - first:
+      213: 1611133760651276845
+    second: egara_6
+  - first:
+      213: 1735616953541530726
+    second: egara_7
+  - first:
+      213: -3677036869259327692
+    second: egara_8
+  - first:
+      213: -929972579694326274
+    second: egara_9
+  - first:
+      213: -65607195430772166
+    second: egara_10
+  - first:
+      213: 5279529132047123705
+    second: egara_11
+  - first:
+      213: 3613682460624552618
+    second: egara_12
+  - first:
+      213: 2838470943570206736
+    second: egara_13
+  - first:
+      213: 3587551306425790490
+    second: egara_14
+  - first:
+      213: 7721215590372708008
+    second: egara_15
+  - first:
+      213: -906811794593850957
+    second: egara_16
+  - first:
+      213: -2502758840853455135
+    second: egara_17
+  - first:
+      213: -8728990263326558411
+    second: egara_18
+  - first:
+      213: 3943480987120370067
+    second: egara_19
+  - first:
+      213: -3109926721304573876
+    second: egara_20
+  - first:
+      213: 1174296447106880491
+    second: egara_21
+  - first:
+      213: 4564314290237446502
+    second: egara_22
+  - first:
+      213: 1290343794131441818
+    second: egara_23
+  - first:
+      213: -6421159878245801073
+    second: egara_24
+  - first:
+      213: -2440724575865236161
+    second: egara_25
+  - first:
+      213: -6361336081532629675
+    second: egara_26
+  - first:
+      213: 546730809910346221
+    second: egara_27
+  - first:
+      213: 7267488017535630337
+    second: egara_28
+  - first:
+      213: -968666360435949656
+    second: egara_29
+  - first:
+      213: -8733148051610634390
+    second: egara_30
+  - first:
+      213: 5203668764366959082
+    second: egara_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: egara_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4726
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c5b8646aec18780800000000000000
+      internalID: -8682431393050174383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_1
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 4726
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a081a0a9ace91d0800000000000000
+      internalID: -3342011110519207356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_2
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 4726
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb376d6f91a10350800000000000000
+      internalID: 5981239486232083453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_3
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 4726
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594f090a766f30030800000000000000
+      internalID: 3459879863686591637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_4
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 4726
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04a4551a73fd7d20800000000000000
+      internalID: 3278043809465017355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_5
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 4726
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa850650dd534edf0800000000000000
+      internalID: -151937264029509462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_6
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 4726
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2232418e95eb5610800000000000000
+      internalID: 1611133760651276845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_7
+      rect:
+        serializedVersion: 2
+        x: 7777
+        y: 4726
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6641dfd6c66261810800000000000000
+      internalID: 1735616953541530726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3152
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43788cdf27a88fcc0800000000000000
+      internalID: -3677036869259327692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_9
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 3152
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd4770bdd21813f0800000000000000
+      internalID: -929972579694326274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_10
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 3152
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32a3a57a9ae61ff0800000000000000
+      internalID: -65607195430772166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_11
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 3152
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4cef006c7a44940800000000000000
+      internalID: 5279529132047123705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_12
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 3152
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa206944d01662230800000000000000
+      internalID: 3613682460624552618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_13
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 3152
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01025c8c846446720800000000000000
+      internalID: 2838470943570206736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_14
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 3152
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a107ff0d7ea89c130800000000000000
+      internalID: 3587551306425790490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_15
+      rect:
+        serializedVersion: 2
+        x: 7777
+        y: 3152
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae8f52bba4472b60800000000000000
+      internalID: 7721215590372708008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1578
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b959113a7b5a63f0800000000000000
+      internalID: -906811794593850957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_17
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1578
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee167c281a644dd0800000000000000
+      internalID: -2502758840853455135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_18
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 1578
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537b39a8a956cd680800000000000000
+      internalID: -8728990263326558411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_19
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 1578
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39101d7701f0ab630800000000000000
+      internalID: 3943480987120370067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_20
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 1578
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c484523cf1257d4d0800000000000000
+      internalID: -3109926721304573876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_21
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 1578
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be31fce9560fb4010800000000000000
+      internalID: 1174296447106880491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_22
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 1578
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66997d80aa3b75f30800000000000000
+      internalID: 4564314290237446502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_23
+      rect:
+        serializedVersion: 2
+        x: 7777
+        y: 1578
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98955f18d838e110800000000000000
+      internalID: 1290343794131441818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f832b2b8c1573e6a0800000000000000
+      internalID: -6421159878245801073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_25
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 4
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f359cf40eedc02ed0800000000000000
+      internalID: -2440724575865236161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_26
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 4
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d4f53a98ef7b7a0800000000000000
+      internalID: -6361336081532629675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_27
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 4
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1c77066c0669700800000000000000
+      internalID: 546730809910346221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_28
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 4
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c7e9ed8dd4bd460800000000000000
+      internalID: 7267488017535630337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_29
+      rect:
+        serializedVersion: 2
+        x: 5555
+        y: 4
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af3850d31b9e82f0800000000000000
+      internalID: -968666360435949656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_30
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 4
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a677ad40e10adc680800000000000000
+      internalID: -8733148051610634390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egara_31
+      rect:
+        serializedVersion: 2
+        x: 7777
+        y: 4
+        width: 1111
+        height: 1574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae173e4cb25273840800000000000000
+      internalID: 5203668764366959082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: df836d5ca589807409333b112a616b98
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,12 +9,14 @@ public class CardControl : MonoBehaviour
     public int cardIndex;
     public int BackIndex;
 
+    public bool isalpha = false;
+
     [SerializeField]
     private Sprite[] face;
     [SerializeField]
     private Sprite cardBack;
     [SerializeField]
-    private Sprite BonusBack;
+    private Sprite OKcards;
 
     private GameObject[] childrenobj = new GameObject[3];
 
@@ -27,12 +29,16 @@ public class CardControl : MonoBehaviour
     public bool flipflag = false;
     private bool backflipflag = false;
 
+    private float lefttime = 180;
+
     private void OnBecameVisible()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
+        spriteRenderer.receiveShadows = true;
+        GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
         GetComponent<Rigidbody>().isKinematic = true;
         GetComponent<Collider>().enabled = true;
-        gameObject.transform.localEulerAngles = new Vector3(0,180,0);
         backflipflag = false;
     }
 
@@ -44,7 +50,13 @@ public class CardControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
+        spriteRenderer.receiveShadows = true;
+        GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
+        GetComponent<Rigidbody>().isKinematic = true;
+        GetComponent<Collider>().enabled = true;
+        backflipflag = false;
     }
 
     private void Awake()
@@ -58,8 +70,10 @@ public class CardControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //gameObject.transform.Rotate(0, Time.deltaTime * 50, 0);
+
         /*
-        int a = (int)(transform.localEulerAngles.y / 90);
+        int a = (int)(transform.localEulerAngles.x / 90);
         if(a == 1 || a == 2)
         {
             spriteRenderer.sprite = face[cardIndex];
@@ -75,32 +89,17 @@ public class CardControl : MonoBehaviour
                 spriteRenderer.sprite = BonusBack;
             }
         }*/
-       
+
 
         if (flipflag)
         {
-            transform.Rotate(0, Time.deltaTime * 1000, 0);
-            if (backflipflag)
+            lefttime -= Time.deltaTime * 1000;
+            transform.Rotate(0,Time.deltaTime * 1000, 0);
+            if (lefttime < 0)
             {
-                if (transform.localEulerAngles.y > 180)
-                {
-                    Vector3 p = transform.localEulerAngles;
-                    p.y = 180;
-                    transform.localEulerAngles = p;
-                    backflipflag = false;
-                    flipflag = false;
-                }
-            }
-            else
-            {
-                if (transform.localEulerAngles.y < 180)
-                {
-                    Vector3 p = transform.localEulerAngles;
-                    p.y = 0;
-                    transform.localEulerAngles = p;
-                    backflipflag = true;
-                    flipflag = false;
-                }
+                flipflag = false;
+                transform.Rotate(0, lefttime, 0);
+                lefttime = 180;
             }
         }
 
@@ -124,19 +123,20 @@ public class CardControl : MonoBehaviour
         }
         else
         {
-            if (BackIndex == 0)
-            {
-                spriteRenderer.sprite = cardBack;
-            }
-            else
-            {
-                spriteRenderer.sprite = BonusBack;
-            }
+            spriteRenderer.sprite = cardBack;
         }
 
-        if(transform.position.z < -300)
+        if(transform.position.y < -300)
         {
             gameObject.SetActive(false);
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if(isalpha == true)
+        {
+            spriteRenderer.material.color -= new Color(0,0,0,Time.fixedDeltaTime * 0.25f);
         }
     }
 

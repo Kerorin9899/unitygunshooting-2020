@@ -27,15 +27,15 @@ public class Curosormoves : MonoBehaviour
         /* Mouse Mode (Debug) */
         m_pos = Input.mousePosition;
 
-        var vec = m_pos - transform.position;
-        vec /= 150.0f / RapidCursor;
+        //var vec = m_pos - transform.position;
+        //vec /= 150.0f / RapidCursor;
 
         //transform.position += vec;
         transform.position = m_pos;
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, 0, w), Mathf.Clamp(transform.position.y, 0, h),0);
         
 
-        transform.Rotate(0,0,Time.deltaTime * 200 * RapidCursor);
+        //transform.Rotate(0,0,Time.deltaTime * 200 * RapidCursor);
 
         /* JoyCon Mode */ 
 
