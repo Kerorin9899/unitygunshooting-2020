@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Checkgame : MonoBehaviour
 {
+    private CardCreate CC;
+
     private void Awake()
     {
-        
+        CC = GetComponent<CardCreate>();
     }
 
     // Start is called before the first frame update
@@ -19,10 +21,5 @@ public class Checkgame : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void Gamechange()
-    {
-       
     }
 }

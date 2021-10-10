@@ -11,6 +11,8 @@ TagManager:
   - Ground
   - Item
   - Cards
+  - Enemy
+  - selectedcards
   layers:
   - Default
   - TransparentFX
@@ -21,7 +23,7 @@ TagManager:
   - 
   - 
   - post
-  - 
+  - selected
   - 
   - 
   - 

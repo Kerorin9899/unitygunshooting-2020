@@ -6,10 +6,16 @@ public class CardControl : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
 
+    private Rigidbody rigid;
+    private Collider coll;
+
+    public CardCreate CC;
+
     public int cardIndex;
     public int BackIndex;
 
     public bool isalpha = false;
+    public bool Isdeeling = false;
 
     [SerializeField]
     private Sprite[] face;
@@ -33,12 +39,13 @@ public class CardControl : MonoBehaviour
 
     private void OnBecameVisible()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
         spriteRenderer.receiveShadows = true;
-        GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
-        GetComponent<Rigidbody>().isKinematic = true;
-        GetComponent<Collider>().enabled = true;
+        gameObject.tag = "Cards";
+        gameObject.layer = 0;
+        rigid.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
+        rigid.isKinematic = true;
+        //coll.enabled = true;
         backflipflag = false;
     }
 
@@ -50,12 +57,15 @@ public class CardControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rigid = GetComponent<Rigidbody>();
+        coll = GetComponent<Collider>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
         spriteRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
         spriteRenderer.receiveShadows = true;
-        GetComponent<Rigidbody>().collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
-        GetComponent<Rigidbody>().isKinematic = true;
-        GetComponent<Collider>().enabled = true;
+        rigid.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
+        rigid.isKinematic = true;
+        //coll.enabled = true;
         backflipflag = false;
     }
 
@@ -89,6 +99,8 @@ public class CardControl : MonoBehaviour
                 spriteRenderer.sprite = BonusBack;
             }
         }*/
+
+        rigid.velocity = new Vector3(rigid.velocity.x, Mathf.Clamp(rigid.velocity.y, -1.4f, 20.0f), rigid.velocity.z);
 
 
         if (flipflag)
