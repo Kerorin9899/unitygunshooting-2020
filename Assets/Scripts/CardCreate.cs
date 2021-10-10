@@ -273,7 +273,7 @@ public class CardCreate : MonoBehaviour
         if(j >= numcard - 1)
         {
             j = 0;
-            Issetting = 10;
+            Issetting = 2;
             CancelInvoke("MakeCardrepeat");
         }
 

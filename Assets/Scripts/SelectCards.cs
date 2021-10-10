@@ -47,7 +47,7 @@ public class SelectCards : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (CC.Issetting == 0)
+        if (CC.Issetting == 2)
         {
             select();
         }
